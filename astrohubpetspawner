@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gagscripts11/astrohubgag/refs/heads/main/gagpetspawner"))()
