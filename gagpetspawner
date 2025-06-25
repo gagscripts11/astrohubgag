@@ -38,11 +38,10 @@ end)
 -- Misc
 local Misc = Window:NewTab("Misc")
 
-local MiscSection = Misc:NewSection("Coming soon...")
+local MiscSection = Misc:NewSection("Coming soon")
 
 -- Shop
 local Shop = Window:NewTab("Shop")
-
 local ShopSection = Shop:NewSection("Auto Buy")
 
 ShopSection:NewDropdown("Auto Buy", "Auto buy stuff", {"Best seeds", "Best gear", "Best eggs"}, function(currentOption)
@@ -51,13 +50,6 @@ end)
 
 
 
-
-
-
--- Credits
-local Credits = Window:NewTab("Credits")
-
-local CreditsSection = Credits:NewSection("Astro Hub V1.2 by OO_AuroraVR")
 
 
 
